@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd7ee38fc457f740a21dd7b07e3c527, type: 3}
+  m_Name: ShotgunLootSO
+  m_EditorClassIdentifier: 
+  chance: 1
+  rollItems:
+  - sprite: {fileID: 8138920722422404243, guid: 2a93a0607efbe7d44bce679091e706ff, type: 3}
+    chance: 0.1
+    gunpart: 0
+  - sprite: {fileID: 681135323696836534, guid: 2a93a0607efbe7d44bce679091e706ff, type: 3}
+    chance: 0.1
+    gunpart: 1
+  - sprite: {fileID: 6013932345208700194, guid: 2a93a0607efbe7d44bce679091e706ff, type: 3}
+    chance: 0.1
+    gunpart: 2
+  lootType: 2
+  hasNameTag: 1
+  nameTagSO: {fileID: 11400000, guid: 8af7064d9ec196547bd634f33fd3d2bd, type: 2}

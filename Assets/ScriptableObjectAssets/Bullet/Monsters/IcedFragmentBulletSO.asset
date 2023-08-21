@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98159c8bab8c8bd4d898397cd3cef204, type: 3}
+  m_Name: IcedFragmentBulletSO
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7833620678893773837, guid: 9968d2eaab9b8d8439ce05f80b68de46, type: 3}
+  fireSpeed: 5
+  minDamage: 10
+  maxDamage: 10
+  hasDebuff: 1
+  debuffDetails: {fileID: 11400000, guid: ad5eff4ec6bec6841bbf9900a2269104, type: 2}
+  pOffset: {x: 0, y: 0, z: 0}
+  rOffset: 0
+  count: 3
+  cdTime: 0.8
+  angle: 0
+  distance: 2.5
+  centerDistance: 0
+  selfRotation: 0
+  addRotation: 0
+  tempShootTime: 81.58
+  tempRotation: {x: 0, y: 0, z: 0, w: 1}
+  tempSelfRotation: 0
+  bulletHitEffect: {fileID: 0}
+  hitWallEffect: {fileID: 11400000, guid: 3004fc3d2832ca541a03d53529490f05, type: 2}
+  useCustonSetting: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  scale: 0
+  sprite: {fileID: 0}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2050fcb993e1e6440ba81fc362a015be, type: 3}
+  m_Name: Block_Chest_1
+  m_EditorClassIdentifier: 
+  guid: 80c83ce3bb23b394a90295c215962ce0
+  blockPrefab: {fileID: 8179763872994883724, guid: 9b4eb33f448aca64293d667a2475264a, type: 3}
+  previousBlockPrefab: {fileID: 8179763872994883724, guid: 9b4eb33f448aca64293d667a2475264a, type: 3}
+  blockType: {fileID: 11400000, guid: 8ccd2948051e64449bb786dd1807804a, type: 2}
+  lowerBound: {x: -38, y: -12}
+  upperBound: {x: 10, y: 37}
+  gateList:
+  - position: {x: -10, y: 37}
+    gatePosition: 0
+    gatePrefab: {fileID: 4903327621106699712, guid: b55f318169ae32c4c89d8dd049f089e7, type: 3}
+    gateDuplicateStartPosition: {x: -13, y: 37}
+    gateWidth: 5
+    gateHeight: 8
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: 10, y: 11}
+    gatePosition: 1
+    gatePrefab: {fileID: 4752723713918024374, guid: 7e0686c9c2a417b44a7b2c2d31fc8ba5, type: 3}
+    gateDuplicateStartPosition: {x: 5, y: 16}
+    gateWidth: 6
+    gateHeight: 7
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: -16, y: -12}
+    gatePosition: 3
+    gatePrefab: {fileID: 4903327621106699712, guid: b55f318169ae32c4c89d8dd049f089e7, type: 3}
+    gateDuplicateStartPosition: {x: -19, y: -7}
+    gateWidth: 5
+    gateHeight: 6
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: -38, y: 11}
+    gatePosition: 2
+    gatePrefab: {fileID: 4752723713918024374, guid: 7e0686c9c2a417b44a7b2c2d31fc8ba5, type: 3}
+    gateDuplicateStartPosition: {x: -38, y: 16}
+    gateWidth: 7
+    gateHeight: 7
+    isLinked: 0
+    isUnavailable: 0
+  enemyPositionArr: []
+  enemySpawnLists: []
+  enemySpawnConstraint:
+    maxEnemy: 0
+    minEnemy: 0
+    maxEnemyAvailable: 0
+    minEnemyAvailable: 0
+    minEnemySpawnInterval: 0
+    maxEnemySpawnInterval: 0
+  musicBattle: {fileID: 11400000, guid: 2e382dd795a8f6147bf448ff87f5d61c, type: 2}
+  musicNobattle: {fileID: 11400000, guid: 65c431a71c2210d4db362b16f8df1b41, type: 2}

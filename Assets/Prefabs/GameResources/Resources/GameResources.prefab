@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3132983388115036514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5086157909036523928}
+  - component: {fileID: 5769523852912694521}
+  m_Layer: 0
+  m_Name: GameResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5086157909036523928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132983388115036514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5769523852912694521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132983388115036514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f61d0cef60aa448a90a67a9ac03274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  currentPlayer: {fileID: 11400000, guid: fddc3f714af1eb84083dcb715ad5dc0f, type: 2}
+  masterSound: {fileID: 24300002, guid: 8a2ece52eae29434f8276dee6b3e5104, type: 2}
+  musicOnFullSnapshot: {fileID: 1822970480143985154, guid: 8a2ece52eae29434f8276dee6b3e5104, type: 2}
+  dimmedMaterial: {fileID: 2100000, guid: f025a0cfc8c1e06478ce3c708b8ef21e, type: 2}
+  collisionTiles:
+  - {fileID: 11400000, guid: 1ff61a7380f943a4183bff799064073c, type: 2}
+  - {fileID: 11400000, guid: 89de54438709d44499157d19dfa2e105, type: 2}
+  preferredPath: {fileID: 11400000, guid: e1d0d10e822a83b4e9d5d1c99732cce0, type: 2}
+  hitEnemyBloodPt: {fileID: 7568762179621881683, guid: 42622796c9fb24942b1372b8d9e2d8b3, type: 3}
+  debuffPrefab: {fileID: 1089741323646496783, guid: 5f36b03426384464194fe796374f35fc, type: 3}
+  lootPrefab: {fileID: 4122973320264722911, guid: 7b444e119ef19284793a93415c1073ce, type: 3}
+  damageNumPrefab: {fileID: 4467192395949411563, guid: e3dbd336da4d31e4fb0e78a3668aba1a, type: 3}
+  LevelIndex: 2
+  currentLevelIndex: 0
+  bossLevelOneCompleted: 0
+  bossLeveltwoCompleted: 0
+  survivalLevelOneCompleted: 0
+  survivalLevelTwoCompleted: 0

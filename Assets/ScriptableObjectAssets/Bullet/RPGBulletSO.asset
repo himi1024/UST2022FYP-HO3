@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98159c8bab8c8bd4d898397cd3cef204, type: 3}
+  m_Name: RPGBulletSO
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7833620678893773837, guid: da193a5b5f2929a4ab4f2e2505264955, type: 3}
+  fireSpeed: 20
+  minDamage: 100
+  maxDamage: 120
+  hasDebuff: 0
+  debuffDetails: {fileID: 0}
+  pOffset: {x: 0, y: 0, z: 0}
+  rOffset: 0
+  count: 1
+  cdTime: 0.1
+  angle: 0
+  distance: 0
+  centerDistance: 0
+  selfRotation: 0
+  addRotation: 0
+  tempShootTime: 0
+  tempRotation: {x: 0, y: 0, z: 0, w: 0}
+  tempSelfRotation: 0
+  bulletHitEffect: {fileID: 6031025564418892190, guid: 22474f044a215fc48a665292bab7ea44, type: 3}
+  hitWallEffect: {fileID: 11400000, guid: 595a67f8ca143e0459258b579fcc30dd, type: 2}
+  useCustonSetting: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  scale: 0
+  sprite: {fileID: 0}

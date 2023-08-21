@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8121793120610615392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 004f4bc3-39fe-4cd7-8b36-c0f65f7916d3
+  parentBlockIDList:
+  - 8140e2e6-8110-4a5c-b6f6-2a8117631720
+  childBlockIDList: []
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 0d8b9883cee0e38418d2315fd3777066, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 1424
+    y: 163
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 1
+--- !u!114 &-5610391814382274381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 5bc28aa6-a3ff-4329-8718-dc6869d58129
+  parentBlockIDList:
+  - a1ef7bf9-4cfa-4554-800a-fddbcc53cf6e
+  childBlockIDList:
+  - 66db2e5a-e48c-4f1f-b37f-0e2f64796227
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 548d7bb737c5b184ca1770395a68fbc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 873
+    y: 311
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &-4970689467441988173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 8140e2e6-8110-4a5c-b6f6-2a8117631720
+  parentBlockIDList:
+  - a1ef7bf9-4cfa-4554-800a-fddbcc53cf6e
+  childBlockIDList:
+  - 004f4bc3-39fe-4cd7-8b36-c0f65f7916d3
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 548d7bb737c5b184ca1770395a68fbc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 1155
+    y: 165
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 1
+--- !u!114 &-4345026005634005060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 8776cc54-3658-4667-bbef-8da8479b19cf
+  parentBlockIDList:
+  - 5ac29fa9-56a1-484e-902b-e9e4b60782df
+  childBlockIDList: []
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: c41fbb4406e4a0b448f82fab51858c48, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 1164
+    y: 322
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &-3135263983763623289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 614d393a-e4ab-4be4-aa59-08377e6d285c
+  parentBlockIDList:
+  - 19895b79-9cf7-49d4-9e3e-61dc2b1f7e22
+  childBlockIDList: []
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: fdba04ccf10b3d04b94c938963b4147d, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 405
+    y: 462
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &-3002002286028729778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: a8961309-ea95-44f1-8083-ba7c9ed4489e
+  parentBlockIDList:
+  - 66db2e5a-e48c-4f1f-b37f-0e2f64796227
+  childBlockIDList:
+  - 4df4a808-4938-493a-b35c-3e0715aea031
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 548d7bb737c5b184ca1770395a68fbc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 879
+    y: 604
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b82918b2a278c4eb56a8368d85795c, type: 3}
+  m_Name: MapStructureGraph_Level2_1
+  m_EditorClassIdentifier: 
+  blockTypeList: {fileID: 0}
+  blockList:
+  - {fileID: 1683865267974286444}
+  - {fileID: -8121793120610615392}
+  - {fileID: -4970689467441988173}
+  - {fileID: 3058355942087982962}
+  - {fileID: -5610391814382274381}
+  - {fileID: -4345026005634005060}
+  - {fileID: 7667409325446835346}
+  - {fileID: -3002002286028729778}
+  - {fileID: 1703811556027983769}
+  - {fileID: 8426055829149147985}
+  - {fileID: -3135263983763623289}
+  blockToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1683865267974286444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: a1ef7bf9-4cfa-4554-800a-fddbcc53cf6e
+  parentBlockIDList: []
+  childBlockIDList:
+  - 8140e2e6-8110-4a5c-b6f6-2a8117631720
+  - 5bc28aa6-a3ff-4329-8718-dc6869d58129
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 6b0be0e7c1596674587d718bb5b9bcc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 872
+    y: 169
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 1
+--- !u!114 &1703811556027983769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 4df4a808-4938-493a-b35c-3e0715aea031
+  parentBlockIDList:
+  - a8961309-ea95-44f1-8083-ba7c9ed4489e
+  childBlockIDList: []
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: c41fbb4406e4a0b448f82fab51858c48, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 1174
+    y: 598
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &3058355942087982962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 66db2e5a-e48c-4f1f-b37f-0e2f64796227
+  parentBlockIDList:
+  - 5bc28aa6-a3ff-4329-8718-dc6869d58129
+  childBlockIDList:
+  - 5ac29fa9-56a1-484e-902b-e9e4b60782df
+  - a8961309-ea95-44f1-8083-ba7c9ed4489e
+  - 19895b79-9cf7-49d4-9e3e-61dc2b1f7e22
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 87e23ba63e9430b47827880dc2310cb5, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 877
+    y: 461
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 1
+--- !u!114 &7667409325446835346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 5ac29fa9-56a1-484e-902b-e9e4b60782df
+  parentBlockIDList:
+  - 66db2e5a-e48c-4f1f-b37f-0e2f64796227
+  childBlockIDList:
+  - 8776cc54-3658-4667-bbef-8da8479b19cf
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 548d7bb737c5b184ca1770395a68fbc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 1162
+    y: 458
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0
+--- !u!114 &8426055829149147985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bce45ece37ef048a96de5b9be4f9e9, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  id: 19895b79-9cf7-49d4-9e3e-61dc2b1f7e22
+  parentBlockIDList:
+  - 66db2e5a-e48c-4f1f-b37f-0e2f64796227
+  childBlockIDList:
+  - 614d393a-e4ab-4be4-aa59-08377e6d285c
+  mapStructureGraph: {fileID: 11400000}
+  blockTypeList: {fileID: 11400000, guid: a00a88589eb7a5043968c670f16c3906, type: 2}
+  blockType: {fileID: 11400000, guid: 548d7bb737c5b184ca1770395a68fbc9, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 650
+    y: 463
+    width: 160
+    height: 75
+  isLeftClickDragging: 0
+  isSelected: 0

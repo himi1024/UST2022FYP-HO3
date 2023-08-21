@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50735ada92fe8084d9b5351d9b7996c7, type: 3}
+  m_Name: LaserGunSO
+  m_EditorClassIdentifier: 
+  weaponName: LaserGun
+  maxAmmo: 900
+  shootCD: 0
+  weaponShootPosition: {x: 0, y: 0}
+  bulletDetails: {fileID: 11400000, guid: 2f349430b7fcd2846b25148877ab4e69, type: 2}
+  continueShoot: 1
+  reloadTime: 0
+  isPlayer: 1
+  smokeParticle: {fileID: 0}
+  firingSoundEffect: {fileID: 11400000, guid: ba150c97af6b0154da72b176d8eac668, type: 2}
+  reloadSoundEffect: {fileID: 0}
+  noAmmoEffect: {fileID: 11400000, guid: bd82b6f0ed3e39f4c9402a47860562aa, type: 2}

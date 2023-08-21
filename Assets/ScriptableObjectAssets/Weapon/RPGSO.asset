@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50735ada92fe8084d9b5351d9b7996c7, type: 3}
+  m_Name: RPGSO
+  m_EditorClassIdentifier: 
+  weaponName: RPG
+  maxAmmo: 6
+  shootCD: 1
+  weaponShootPosition: {x: 0, y: 0}
+  bulletDetails: {fileID: 11400000, guid: 858aa037c957d8b479378ec4039ef242, type: 2}
+  continueShoot: 1
+  reloadTime: 1
+  isPlayer: 1
+  smokeParticle: {fileID: 6031025564418892190, guid: 13b7da5722b3a1c4783a5be66f92fee0, type: 3}
+  firingSoundEffect: {fileID: 11400000, guid: 79b92450ac2e37449885715494a63f32, type: 2}
+  reloadSoundEffect: {fileID: 11400000, guid: 13f1e367c01c6414491e2cc3c0e3da03, type: 2}
+  noAmmoEffect: {fileID: 11400000, guid: bd82b6f0ed3e39f4c9402a47860562aa, type: 2}

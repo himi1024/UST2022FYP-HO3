@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98159c8bab8c8bd4d898397cd3cef204, type: 3}
+  m_Name: FlowerBulletSO
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7833620678893773837, guid: 8516c12812a29514b810786b5ea1c136, type: 3}
+  fireSpeed: 3
+  minDamage: 10
+  maxDamage: 10
+  hasDebuff: 0
+  debuffDetails: {fileID: 0}
+  pOffset: {x: 0, y: 0, z: 0}
+  rOffset: 0
+  count: 3
+  cdTime: 0.3
+  angle: 120
+  distance: 0
+  centerDistance: 0
+  selfRotation: 20
+  addRotation: 5
+  tempShootTime: 87.96
+  tempRotation: {x: 0, y: 0, z: -0.000000043633626, w: -0.9999998}
+  tempSelfRotation: 65
+  bulletHitEffect: {fileID: 0}
+  hitWallEffect: {fileID: 11400000, guid: 3004fc3d2832ca541a03d53529490f05, type: 2}
+  useCustonSetting: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  scale: 0
+  sprite: {fileID: 0}

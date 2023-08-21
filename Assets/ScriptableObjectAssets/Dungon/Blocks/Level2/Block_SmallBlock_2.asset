@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2050fcb993e1e6440ba81fc362a015be, type: 3}
+  m_Name: Block_SmallBlock_2
+  m_EditorClassIdentifier: 
+  guid: b84ed8f50300ed547a13bbefb7561e7e
+  blockPrefab: {fileID: 8179763872994883724, guid: f1fcf7066915a1542914690725344860, type: 3}
+  previousBlockPrefab: {fileID: 8179763872994883724, guid: f1fcf7066915a1542914690725344860, type: 3}
+  blockType: {fileID: 11400000, guid: c41fbb4406e4a0b448f82fab51858c48, type: 2}
+  lowerBound: {x: -7, y: -16}
+  upperBound: {x: 46, y: 39}
+  gateList:
+  - position: {x: 28, y: 39}
+    gatePosition: 0
+    gatePrefab: {fileID: 4903327621106699712, guid: b55f318169ae32c4c89d8dd049f089e7, type: 3}
+    gateDuplicateStartPosition: {x: 25, y: 39}
+    gateWidth: 5
+    gateHeight: 9
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: 46, y: 22}
+    gatePosition: 1
+    gatePrefab: {fileID: 4752723713918024374, guid: 7e0686c9c2a417b44a7b2c2d31fc8ba5, type: 3}
+    gateDuplicateStartPosition: {x: 40, y: 28}
+    gateWidth: 7
+    gateHeight: 8
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: 10, y: -16}
+    gatePosition: 3
+    gatePrefab: {fileID: 4903327621106699712, guid: b55f318169ae32c4c89d8dd049f089e7, type: 3}
+    gateDuplicateStartPosition: {x: 7, y: -12}
+    gateWidth: 5
+    gateHeight: 5
+    isLinked: 0
+    isUnavailable: 0
+  - position: {x: -7, y: -4}
+    gatePosition: 2
+    gatePrefab: {fileID: 4752723713918024374, guid: 7e0686c9c2a417b44a7b2c2d31fc8ba5, type: 3}
+    gateDuplicateStartPosition: {x: -7, y: 2}
+    gateWidth: 6
+    gateHeight: 8
+    isLinked: 0
+    isUnavailable: 0
+  enemyPositionArr:
+  - {x: 10, y: -2}
+  - {x: 16, y: 9}
+  - {x: 26, y: 18}
+  - {x: 32, y: 23}
+  enemySpawnLists:
+  - levelDetails: {fileID: 11400000, guid: 8e44bff759053f348927386f0ac6a872, type: 2}
+    enemySpawnInfoList:
+    - monsterDetailSO: {fileID: 11400000, guid: dea6ab0a539081e4aaf8e59b996e4610, type: 2}
+      spawnWeight: 1
+    - monsterDetailSO: {fileID: 11400000, guid: ed5b272c4b270b54e906a3d4f663c317, type: 2}
+      spawnWeight: 2
+    - monsterDetailSO: {fileID: 11400000, guid: b47cf5caac7b1d94b830f1fd2cdcc61c, type: 2}
+      spawnWeight: 2
+  enemySpawnConstraint:
+    maxEnemy: 10
+    minEnemy: 8
+    maxEnemyAvailable: 4
+    minEnemyAvailable: 3
+    minEnemySpawnInterval: 1.5
+    maxEnemySpawnInterval: 2
+  musicBattle: {fileID: 11400000, guid: 2e382dd795a8f6147bf448ff87f5d61c, type: 2}
+  musicNobattle: {fileID: 11400000, guid: 65c431a71c2210d4db362b16f8df1b41, type: 2}
